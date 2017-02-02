@@ -27,7 +27,12 @@ $(function(){
   });
 $(document).on('click','#archivo_pdf',function(e){
   e.stopPropagation();
- e.preventDefault();
+ e.preventDefault();//aca se haria algo para bajar el arhcivo
+
+});
+$('form#enviar_mensaje').submit(function(e){
+  e.preventDefault();
+  console.log('aca entraste cuando envias el msj');
 
 });
 $(document).on('click','.img_galeria_articulo',function(){

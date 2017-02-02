@@ -9,14 +9,7 @@ class Urls{
     private $url_entrante = array();
    //metodos privados
 
-  public function __construct($url){
-    $str = explode('/',$url['path']);
-    $v =array();
-    for ($i=1; $i < count($str) ; $i++) {
-      $v[]= $str[$i];
-    }
-    $this->url_entrante = $v;
-  }
+  
   public function obtener_url_entrante(){
     return $this->url_entrante;
   }

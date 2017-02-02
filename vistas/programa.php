@@ -7,6 +7,7 @@
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
+    <?php echo IMPORTAR_RESPONSIVE?> <!-- ACA SE INCLUYEN TODOS LOS CSS DEL RESPONSIVE-->
     <title>Nosotros-Gigena Parker</title>
   </head>
   <body>
@@ -33,8 +34,3 @@
       echo $html;
     }
     ?>
-    <?php include_once 'estructuras/footer.php';?>
-  </body>
-  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
-  <script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
-</html>

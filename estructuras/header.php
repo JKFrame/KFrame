@@ -6,7 +6,7 @@ $url_img_logo= RUTA_IMG.'logo_gigena.png';
 $pre_url ='../';
 }
 ?>
-<header >
+<header>
     <span class="tipo_logo"><a href="<?php echo SERVIDOR; ?>"><img src="<?php echo $url_img_logo ?>" alt="logo"></a><a class="txt_logo_gigena" href="<?php echo SERVIDOR; ?>">CentroGigenaParker</a></span>
     <div class="conte_menu">
       <ul class="menu">
@@ -31,8 +31,9 @@ $pre_url ='../';
 
       ?>
     </div>
+    
 
-
+</header>
 
 
 
@@ -53,4 +54,3 @@ $pre_url ='../';
     </div>
   </div>
   </div>-->
-</header>

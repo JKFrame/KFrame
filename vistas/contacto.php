@@ -6,6 +6,7 @@
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
+    <?php echo IMPORTAR_RESPONSIVE?> <!-- ACA SE INCLUYEN TODOS LOS CSS DEL RESPONSIVE-->
     <script src="https://use.fontawesome.com/86baab9842.js"></script>
     <title>Contacto-Gigena Parker</title>
   </head>
@@ -33,6 +34,3 @@
         </div>
       </div>
     </div>
-    <?php include_once 'estructuras/footer.php';?>
-  </body>
-</html>

@@ -12,6 +12,7 @@ if(!isset($datos_individual) && empty($datos_individual)){
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
+    <?php echo IMPORTAR_RESPONSIVE?> <!-- ACA SE INCLUYEN TODOS LOS CSS DEL RESPONSIVE-->
     <script src="https://use.fontawesome.com/86baab9842.js"></script>
 
     <title>Nosotros-Gigena Parker</title>
@@ -80,10 +81,3 @@ if(!isset($datos_individual) && empty($datos_individual)){
         <li><i class="fa fa-circle" style="color:#3399CC;  margin-right:10px;  font-size:18px;"aria-hidden="true"></i>Tratamientos especiales.</li>
       </ul>
     </div>
-
-
-    <?php include_once 'estructuras/footer.php';?>
-  </body>
-  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
-  <script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
-</html>
