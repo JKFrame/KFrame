@@ -9,6 +9,8 @@ $(function(){
 
     $('img#img_logo').attr('src','imgs/responsive/xs/logo_gigena.png');//imagen del logo.
     $('.img_slideshow').attr('src','imgs/responsive/xs/perro_xs.jpg');//img slideshow
+    //este comentario es nuevo
+
   }
   else if (ancho >=768 && ancho < 1380) {
     //aca es hd md
@@ -16,7 +18,7 @@ $(function(){
     $('.img_slideshow').attr('src','imgs/responsive/md/img_md.jpg');//img slideshow
   }
   else if (ancho >=1380) {
-    //aca full lg 
+    //aca full lg
     $('img#img_logo').attr('src','imgs/responsive/xs/logo_gigena.png');//imagen del logo.
     $('.img_slideshow').attr('src','imgs/responsive/lg/slider00.jpg');//img slideshow
   }
