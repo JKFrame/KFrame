@@ -29,6 +29,40 @@ header{
    padding-top: 7px;
    background-color:#3692CC;
 }
+.menu>li>a{
+   text-decoration: none;
+   color:white;
+   font-size: 21px;
+   font-family: "WorldH";
+   vertical-align: middle;
+   -webkit-transition: all .3s ease;
+   -moz-transition: all .3s ease;
+   transition: all .3s ease;
+
+}
+.menu>li>a:hover{
+   -color:white;
+   font-size: 24px;
+   -border-bottom: 1px solid white;
+}
+a.salir{
+ display: block;
+ float:left;
+ border:none;
+ font-family:'WorldH';
+ color:white;
+ -padding: 0px 0px;
+ margin-left: 15px;
+ margin-top: 4px;
+ background-color: transparent;
+ -webkit-transition: all .26s ease;
+ -o-transition: all .26s ease;
+ transition: all .26s ease;
+}
+a.salir:hover{
+color:white !important;
+text-decoration: none !important;
+}
 .contenedor_usuario {
  display: block;
  float: right;

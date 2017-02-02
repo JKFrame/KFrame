@@ -8,7 +8,7 @@ $pre_url ='../';
 ?>
 <header>
   <div class="contenedor_isologotipo">
-    <span class="tipo_logo"><a href="<?php echo SERVIDOR; ?>"><img src="<?php echo $url_img_logo ?>" alt="logo"></a><a class="txt_logo_gigena" href="<?php echo SERVIDOR; ?>">CentroGigenaParker</a></span>
+    <span class="tipo_logo"><a href="<?php echo SERVIDOR; ?>"><img id="img_logo"src="<?php echo $url_img_logo ?>" alt="logo"></a><a class="txt_logo_gigena" href="<?php echo SERVIDOR; ?>">CentroGigenaParker</a></span>
   </div>
   <div class="conte_menu">
     <ul class="menu">

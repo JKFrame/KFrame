@@ -87,40 +87,7 @@ header{
 .inicio{
  padding-left: 30px;
 }
-.menu>li>a{
-   text-decoration: none;
-   color:white;
-   font-size: 21px;
-   font-family: "WorldH";
-   vertical-align: middle;
-   -webkit-transition: all .3s ease;
-   -moz-transition: all .3s ease;
-   transition: all .3s ease;
 
-}
-.menu>li>a:hover{
-   -color:white;
-   font-size: 24px;
-   -border-bottom: 1px solid white;
-}
-a.salir{
- display: block;
- float:left;
- border:none;
- font-family:'WorldH';
- color:white;
- -padding: 0px 0px;
- margin-left: 15px;
- margin-top: 4px;
- background-color: transparent;
- -webkit-transition: all .26s ease;
- -o-transition: all .26s ease;
- transition: all .26s ease;
-}
-a.salir:hover{
-color:white !important;
-text-decoration: none !important;
-}
 .contenido_quienes_somos{
  display: block;
  float: left;
@@ -181,7 +148,7 @@ text-decoration: none !important;
  float: left;
  position: absolute;
  width: 100%;
- height: 340px;
+ height: 100%;
  opacity: .6;
  background-color: #494949;
 }
@@ -190,7 +157,7 @@ text-decoration: none !important;
  display: block;
  float: left;
  width: 100%;
- height: 100%;
+ height:350px;
 }
 span.txt_slogan{
  position:absolute;

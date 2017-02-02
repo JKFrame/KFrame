@@ -1,6 +1,28 @@
 $(function(){
 
 
+  var ancho = $(window).width();
+  //parte responsive de las imagenes : 1 - Detectar todas las clases que usan imagenes.
+  if(ancho >= 320 && ancho <=468){
+    //entonces es mobil xs
+
+    $('img#img_logo').attr('src','imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    $('.img_slideshow').attr('src','imgs/responsive/lg/slider00.jpg');//img slideshow
+  }
+  else if (ancho >=768 && ancho < 1380) {
+    //aca es hd md
+    $('img#img_logo').attr('src','imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    $('.img_slideshow').attr('src','imgs/responsive/lg/slider00.jpg');//img slideshow
+  }
+  else if (ancho >=1380) {
+    //aca full lg
+    $('img#img_logo').attr('src','imgs/responsive/lg/img_lg.jpeg');//imagen del logo.
+    $('.img_slideshow').attr('src','imgs/responsive/lg/slider00.jpg');//img slideshow
+  }
+
+
+
+  console.log(ancho);
   $(document).on('click','.imagen_perfil_integrante',function(e){
    var nombre = $(this)[0].nextSibling.innerText;
    var contenido = $(this)[0].nextSibling.nextSibling.defaultValue;
@@ -26,7 +48,7 @@ $(function(){
 
   });
 $('ul.menu li a').click(function(e){
-  
+
 })
 $(document).on('click','#archivo_pdf',function(e){
   e.stopPropagation();
