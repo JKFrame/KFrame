@@ -7,18 +7,33 @@
         src: url('../fonts/OpenSans-Regular.ttf');
    }
 
-*{
-   margin:0px;
-   padding: 0px;
-   box-sizing: border-box;
-}
-body{
+   *{
+      margin:0px;
+      padding: 0px;
+      box-sizing: border-box;
+   }
+   body{
+      width: 100%;
+      min-height: 100%;
+      -border: 1px solid green;
+      background-color: white;
+   }
+   footer{
+     clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #3692CC;
+   }
+   .contenedor_contacto_principal{
    display: block;
    float:left;
    width: 100%;
-   -border: 1px solid green;
-   background-color: white;
-}
+   height: 80%;
+   }
 
 header{
    display:block;
@@ -240,12 +255,7 @@ text-align: left;
 .contenedor_preview_feed_inicio .leer_mas{
  font-size: 15px;
 }
-footer{
- display: block;
- float: left;
- width: 100%;
- background-color: #3692CC;
-}
+
 .tipo_logo_footer a{
  display: block;
  float: left;

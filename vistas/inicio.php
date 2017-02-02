@@ -57,8 +57,6 @@ include_once 'app/ControlSesion.inc.php';
 
 
 </body>
-<?php include_once 'estructuras/footer.php';?>
-</body>
 <script type="text/javascript" src="<?php echo RUTA_JS?>polyfill.js"></script>
 
 <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>

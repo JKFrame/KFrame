@@ -12,6 +12,7 @@
   </head>
   <body>
     <?php include_once 'estructuras/header.php';?>
+    <div class="contenedor_contacto_principal">
     <span class="titulo_contacto">Contacto</span>
     <div class="contenedor_contacto">
       <form id="enviar_mensaje" action="contactar" method="post">
@@ -34,3 +35,14 @@
         </div>
       </div>
     </div>
+  </div>
+
+  </body>
+  <?php include_once 'estructuras/footer.php';?>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>polyfill.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery-ui.min.js"></script>
+  <script src="<?php echo RUTA_JS?>jquery.flexslider.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
+  </html>

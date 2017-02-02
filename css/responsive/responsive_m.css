@@ -20,7 +20,12 @@ header{
   -background-color: red;
   -border: 1px solid blue;
 }
-
+.contenedor_contacto_principal{
+display: block;
+float:left;
+width: 100%;
+height: 85%;
+}
 
 .contenedor_isologotipo{
   display: block;
