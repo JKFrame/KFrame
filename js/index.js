@@ -3,6 +3,7 @@ $(function(){
 
   var ancho = $(window).width();
   //parte responsive de las imagenes : 1 - Detectar todas las clases que usan imagenes.
+  console.log(ancho);
   if(ancho >= 320 && ancho <=468){
     //entonces es mobil xs
 
@@ -15,7 +16,7 @@ $(function(){
     $('.img_slideshow').attr('src','imgs/responsive/md/img_md.jpg');//img slideshow
   }
   else if (ancho >=1380) {
-    //aca full lg
+    //aca full lg 
     $('img#img_logo').attr('src','imgs/responsive/xs/logo_gigena.png');//imagen del logo.
     $('.img_slideshow').attr('src','imgs/responsive/lg/slider00.jpg');//img slideshow
   }
