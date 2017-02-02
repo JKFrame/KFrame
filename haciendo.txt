@@ -11,11 +11,11 @@ pagina.com/1/2/
 -categoria/titulo
 -usuario/perfil
 
-A)Lo primero que hay que hacer es identificar si la url es del tipo 1 o 2 . 
+A)Lo primero que hay que hacer es identificar si la url es del tipo 1 o 2 .
 
 Una vez que se conoce el tipo se puede devolver dos caso:
 
-A-i) Es tipo 1: 
+A-i) Es tipo 1:
 	se devuelve el string con ese termino por ej : (login), (panel),(admin)
 A-ii) Es de tipo 2:
 	se devuelve el array que contiene el patron (categoria/titulo) ,(usuario/perfil)
@@ -28,3 +28,6 @@ B)
 
 
 A)R:ValidarUrl.
+
+////////////////////////////////////////////////
+ANOTACIONES:
