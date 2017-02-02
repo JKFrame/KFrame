@@ -23,7 +23,7 @@ $txt_btn = 'Acceso a Miembros';
 </div> -->
 <div class="flexslider">
 <div class="contenedor_slideshow">
-<img class="img_slideshow" src="<?php echo RUTA_IMG?>slideshow/slider0.jpg" alt="Contactanos" />
+<img class="img_slideshow"  alt="Contactanos" />
 <div class="mascara_oculta">
 </div>
 <div class="informacion_slide">

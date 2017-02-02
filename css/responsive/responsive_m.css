@@ -13,7 +13,7 @@
 }
 header{
   width: 100%;
-  -position: absolute;  
+  -position: absolute;
   margin:0;
   padding:0;
   padding: 0% 3% 3% 3%;
@@ -166,13 +166,98 @@ span.titulo_preview_feed_especial{
   width: 100%;
 
 }
+
+.informacion_slide{
+  display: block;
+  float:left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  -padding:23% 0%;
+  -border :1px solid green;
+}
+span.txt_slogan{
+ -position:absolute;
+ display: block;
+ float: left;
+ color:white;
+  width: 100%;
+  margin-top:50%;
+ font-size: 28px;
+ font-family: 'OSans';
+ -border:1px solid blue;
+
+}
+.btn_contactar{
+ -position: absolute;
+ display: block;
+ float:left;
+ width: 55%;
+ border:none;
+ border-top: 0;
+ color:white;
+ font-family: 'WorldH';
+ font-size: 14px;
+ background-color:#3FA9F5;
+ -margin-top:10%;
+ margin-left:22.5%;
+ text-align: center;
+ padding : 6px 20px;
+ transition: all .23s ease;
+}
+.btn_contactar:hover{
+ background-color: #006dbd;
+}
+.contenedor_quienes_somos{
+ display: block;
+ float: left;
+ width: 100%;
+ padding: 2% 5%;
+ -background-color: rgba(155, 177, 191, 0.3);
+ text-align: left;
+ -border:1px solid red;
+ -margin-bottom: 15px;
+}
+.conte_lugares{
+ display: block;
+ float: left;
+ width: 100%;
+ -border:1px solid orange;
+}
+.conte_lugares img{
+  height: auto;
+  width: 100%;
+}
+.contenedor_feed_noticias{
+ display: block;
+ float:left;
+ width: 100%;
+
+ -border:1px solid red;
+}
+.contenedor_preview_feed_inicio{
+display: block;
+float:left;
+width: 100%;
+border-top: 1px solid #c1c1c1;
+-border:1px solid green;
+}
+.contenedor_preview_feed_inicio .titulo_preview_feed_inicio{
+ display: block;
+ float:left;
+ width: 100%;
+ font-size: 20px;
+}
 a.leer_mas{
   display: block;
-  float:right;
-  width: 50%;
-  margin-right:25%;
+  float:left;
+  width: 30%;
   padding: 1% 0;
   color:white;
+  margin-left: 35%;
+  margin-bottom: 4%;
   background-color: #3692CC;
   -border-radius: 10px;
 }
