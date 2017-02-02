@@ -1,40 +1,64 @@
+@font-face {
+     font-family: 'WorldH';
+     src: url('../fonts/HelveticaWorld-Regular.ttf');
+   }
+@font-face {
+        font-family: 'OSans';
+        src: url('../fonts/OpenSans-Regular.ttf');
+   }
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 header{
+  width: 100%;
+  -position: absolute;
   margin:0;
   padding:0;
-  padding: 3%;
+  padding: 0% 3% 3% 3%;
   -background-color: red;
+  -border: 1px solid blue;
+}
+
+
+.contenedor_isologotipo{
+  display: block;
+  float: left;
+  width:100%;
+  margin-top:30px;
+  -border:1px solid pink;
 }
 .tipo_logo img{
   display: block;
   float:left;
-  width:30%;
+  width:45%;
   margin:0;
   padding:0;
-
+  -border:1px solid green;
 }
-.txt_logo_gigena{
+a.txt_logo_gigena{
   display: block;
   float:left;
+  width: 60%;
+  position: absolute;
   margin:0;
-  padding:0;
   font-family: 'Adobe Arabic';
-  font-size: 24px !important;
-  margin-left:5%;
+  font-size: 42px ;
+  text-align: center;
+  margin-left:22%;
+  -border:1px solid yellow;
 }
 .conte_menu{
+  clear:both;
   display: block;
   float:left;
-  position:absolute;
   width:80%;
   margin:0;
   padding:0;
-  margin-top:10%;
-  margin-left:10%;
-  border:1px solid red;
+  -margin-top:8%;
+  margin-left:20%;
+  -border:1px solid red;
 }
 ul.menu{
   display: block;
@@ -46,39 +70,64 @@ ul.menu{
 }
 ul.menu>li{
     display: inline-block;
-    width: 100px;
+    width: 60px;
     -margin-left:5px;
     color:#ccc;
     line-height: 22px;
     text-align: center;
     -border:1px solid green;
 }
+ul.menu>li:last-child{
+  margin-left:10px;
+}
 ul.menu >li a{
   margin:0;
   padding:0;
-  font-size:16px;
+  font-size:14px;
+}
+ul.menu >li a:hover{
+  margin:0;
+  padding:0;
+  font-size:14px;
 }
 .contenedor_usuario {
   display: block;
-  float: right;
-  margin-top:-12.5%;
-  margin-right: 0;
-  -position: absolute;
-
+  float: left;
+  width: 94%;
+  margin:0;
+  position: absolute;
+  -margin-top:5px;
+  -margin-top:-12.5%;
+  -margin-right: 0;
   -border:1px solid red;
 }
-.contenedor_usuario p{
+.contenedor_usuario span{
   display: block;
-  float: left;
+  float:left;
+  width: auto;
   color:white;
-  font-size: 20px;
-  font-family: 'Arial';
-  margin-left: 15px;
-  margin-top:-3px;
+  font-size: 13px;
+
+  font-family: 'WorldH';
+  -border:1px solid orange;
 }
+.contenedor_usuario span a{
+  color:white;
+}
+.contenedor_usuario p{
+  display: none;
 
+}
+.contenedor_usuario .salir{
+display: block;
+float:right;
+width: auto;
+margin:0;
+padding: 0;
+font-size: 12px;
+font-family: 'WorldH';
 
-
+}
 .contenedor_noticias{
   display: block;
   float:left;

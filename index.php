@@ -1,4 +1,8 @@
+
+
+
 <?php
+//ACA EMPEZARIA TODO EL CUERPO DE LA WEB , NO VARIAN LOS ARCHIVOS QUE SE EXPORTAN SIENDO INDEPENDIENTE DE TODAS LAS DEMAS COSAS.
 include_once 'app/config.inc.php';
 include_once 'app/Urls.inc.php';
 include_once 'app/RedireccionUrl.inc.php';
@@ -47,12 +51,3 @@ include_once $url;
 
 }
 ?>
-<!--aca tengo lo ultimo de la web, recursos que se comparten en todas las paginas individuales -->
-<?php include_once 'estructuras/footer.php';?>
-</body>
-<script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo RUTA_JS?>bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo RUTA_JS?>jquery-ui.min.js"></script>
-<script src="<?php echo RUTA_JS?>jquery.flexslider.js"></script>
-<script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
-</html>

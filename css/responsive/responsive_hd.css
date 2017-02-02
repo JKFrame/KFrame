@@ -1,3 +1,120 @@
+@font-face {
+     font-family: 'WorldH';
+     src: url('../fonts/HelveticaWorld-Regular.ttf');
+   }
+@font-face {
+        font-family: 'OSans';
+        src: url('../fonts/OpenSans-Regular.ttf');
+   }
+
+*{
+   margin:0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+   display: block;
+   float:left;
+   width: 100%;
+   -border: 1px solid green;
+   background-color: white;
+}
+
 header{
-  background-color:green;
+   display:block;
+   float:left;
+   -position: absolute;
+   width:100%;
+   height: 120px;
+   padding-top: 7px;
+   background-color:#3692CC;
+}
+.contenedor_usuario {
+ display: block;
+ float: right;
+ width: 25%;
+ top:20px;
+ left:63.5%;
+ position: absolute;
+ padding-top: 10px;
+ -border:1px solid red;
+}
+.contenedor_usuario p{
+ display: block;
+ float: left;
+ color:white;
+ font-size: 20px;
+ font-family: 'Arial';
+ margin-left: 15px;
+}
+.contenedor_usuario span a{
+ display: block;
+ float:right;
+ font-size: 17px;
+ color:white;
+ margin-left :10px;
+}
+.contenedor_usuario span a:hover{
+ text-decoration: none;
+}
+.contenedor_usuario span{
+ display: block;
+ float:left;
+ font-size: 17px;
+ color:white;
+ margin-top: 4px;
+
+}
+.txt_titulo{
+ display: block;
+ float: left;
+ position: absolute;
+ color:white;
+ font-family: 'WorldH';
+ font-size: 35px;
+ margin-top:280px;
+ margin-left: 170px;
+}
+
+
+.txt_logo_gigena{
+ display: block;
+ float: left;
+ width:30%;
+ font-size: 62px;
+ font-family: 'Adobe Arabic';
+ color:white;
+ -margin-left: 170px;
+ margin-top: 35px;
+ -border-bottom: 2px solid white;
+ -border: 1px solid red;
+}
+.tipo_logo{
+ display: block;
+ float:left;
+ width: 40%;
+ -border:1px solid pink;
+}
+.tipo_logo img{
+ display:block;
+   float:left;
+   height:48.5%;
+   margin-top:40px;
+   margin-right:10px;
+   margin-left: 100px;
+   -border:1px solid yellow;
+}
+.tipo_logo a:hover{
+ text-decoration: none;
+
+}
+.conte_menu{
+   display:block;
+   float:right;
+   width:50%;
+   padding-top:5px;
+   -height: 150px;
+   margin-right: 50px;
+   margin-top: 62px;
+   -border:1px solid yellow;
 }

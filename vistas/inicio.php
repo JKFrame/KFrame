@@ -11,9 +11,10 @@ include_once 'app/ControlSesion.inc.php';
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
+
 	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
 	<?php echo IMPORTAR_RESPONSIVE?> <!-- ACA SE INCLUYEN TODOS LOS CSS DEL RESPONSIVE-->
-	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
+
 	<link rel="stylesheet" href="<?php echo RUTA_CSS?>flexslider.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo RUTA_JS?>sticky-header.js"></script>
@@ -56,3 +57,11 @@ include_once 'app/ControlSesion.inc.php';
 
 
 </body>
+<?php include_once 'estructuras/footer.php';?>
+</body>
+<script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>jquery-ui.min.js"></script>
+<script src="<?php echo RUTA_JS?>jquery.flexslider.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
+</html>

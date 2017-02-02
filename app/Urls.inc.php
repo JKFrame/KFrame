@@ -9,7 +9,7 @@ class Urls{
     private $url_entrante = array();
    //metodos privados
 
-  
+
   public function obtener_url_entrante(){
     return $this->url_entrante;
   }
@@ -131,9 +131,11 @@ class Urls{
 
             }
           }
-          elseif ($url[1]=='datos'){
-            if ($url[2]=='sesion') {
-              return 'app/sesion.php';
+          elseif($url[0]=='administrador'){
+            if($url[1]=='datos'){
+              if($url[2]=='sesion'){
+                  return 'app/sesion.php';
+              }
             }
           }
           elseif($url[0]=='datos'){

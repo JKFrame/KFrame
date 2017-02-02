@@ -7,31 +7,31 @@ $pre_url ='../';
 }
 ?>
 <header>
+  <div class="contenedor_isologotipo">
     <span class="tipo_logo"><a href="<?php echo SERVIDOR; ?>"><img src="<?php echo $url_img_logo ?>" alt="logo"></a><a class="txt_logo_gigena" href="<?php echo SERVIDOR; ?>">CentroGigenaParker</a></span>
-    <div class="conte_menu">
-      <ul class="menu">
-        <li><a class="inicio" href="<?php echo SERVIDOR ?>">Inicio</a></li>
-        <li><a href="<?php echo SERVIDOR ?>nosotros">Nosotros</a></li>
-        <li><a href="<?php echo SERVIDOR ?>noticias">Noticias</a></li>
-        <li><a href="<?php echo SERVIDOR ?>programa">Programas</a></li>
-        <li><a href="<?php echo SERVIDOR ?>contacto">Contacto</a></li>
-      </ul>
-
-      <?php
-      if(isset($_SESSION) && !empty($_SESSION)){
-          ?>
-          <div class="contenedor_usuario">
-            <span>Bienvenido <a id="usuario_admin" href="administrador"> <?php echo $_SESSION['nombre'];?></a></span>
-            <p>|</p>
-            <a href="administrador/salir" class="salir">Cerrar Sesión</a>
-          </div>
-        </div>
+  </div>
+  <div class="conte_menu">
+    <ul class="menu">
+      <li><a class="inicio" data-inicio='1' href="<?php echo SERVIDOR ?>">Inicio</a></li>
+      <li><a href="<?php echo SERVIDOR ?>nosotros">Nosotros</a></li>
+      <li><a href="<?php echo SERVIDOR ?>noticias">Noticias</a></li>
+      <li><a href="<?php echo SERVIDOR ?>programa">Programas</a></li>
+      <li><a href="<?php echo SERVIDOR ?>contacto">Contacto</a></li>
+    </ul>
+  </div>
   <?php
-      }
-
+  if(isset($_SESSION) && !empty($_SESSION)){
       ?>
+      <div class="contenedor_usuario">
+        <span>Bienvenido <a id="usuario_admin" href="administrador"> <?php echo $_SESSION['nombre'];?></a></span>
+        <p>|</p>
+        <a href="administrador/salir" class="salir">Cerrar Sesión</a>
+      </div>
     </div>
-    
+<?php
+  }
+  ?>
+
 
 </header>
 

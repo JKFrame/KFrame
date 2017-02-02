@@ -25,6 +25,9 @@ $(function(){
 
 
   });
+$('ul.menu li a').click(function(e){
+  
+})
 $(document).on('click','#archivo_pdf',function(e){
   e.stopPropagation();
  e.preventDefault();//aca se haria algo para bajar el arhcivo
@@ -78,7 +81,7 @@ $(document).on('click','.btn_anterior_zoom',function(){
 
   $(document).on('click','#btn_acceso',function(e){
     e.preventDefault();
-    console.log(e);
+    //console.log(e);
     $.ajax({
       url:'administrador/datos/sesion',
       method:'POST',
