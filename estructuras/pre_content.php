@@ -10,13 +10,13 @@ $txt_btn = 'Acceso a Miembros';
   </div>
   <ul class="slides">
     <li>
-      <img src="<?php echo RUTA_IMG?>slideshow/slider0.jpg" />
+      <img id="slide_0" src="<?php echo RUTA_IMG?>slideshow/slider0.jpg" />
     </li>
     <li>
-      <img src="<?php echo RUTA_IMG?>slideshow/slider1.jpg" />
+      <img id="slide_1" src="<?php echo RUTA_IMG?>slideshow/slider1.jpg" />
     </li>
     <li>
-      <img src="<?php echo RUTA_IMG?>slideshow/slider00.jpg" />
+      <img id="slide_2" src="<?php echo RUTA_IMG?>slideshow/slider00.jpg" />
     </li>
   </ul>
 

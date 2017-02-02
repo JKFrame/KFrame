@@ -9,6 +9,9 @@ $(function(){
 
     $('img#img_logo').attr('src','imgs/responsive/xs/logo_gigena.png');//imagen del logo.
     $('.img_slideshow').attr('src','imgs/responsive/xs/perro_xs.jpg');//img slideshow
+    /*$('#slider_0').attr('src','imgs/responsive/xs/perro_xs.jpg');
+    $('#slider_1').attr('src','imgs/responsive/xs/perro_xs.jpg');
+    $('#slider_2').attr('src','imgs/responsive/xs/perro_xs.jpg');*/ //imgs slideshow.
     //este comentario es nuevo
 
   }
