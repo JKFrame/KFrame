@@ -64,3 +64,6 @@ PROCESO PARA OBTENER DATOS INDIVIDUALMENTE
 
 //////////////////DATOS GITHUB GENERALES////////////
 nombre repositorio en comun : https://github.com/JKFrame/KFrame.git
+
+
+///////MANSOS PASTELES///////
