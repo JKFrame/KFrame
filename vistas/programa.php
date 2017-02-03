@@ -34,3 +34,12 @@
       echo $html;
     }
     ?>
+  </body>
+  <?php include_once 'estructuras/footer.php';?>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>polyfill.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery-ui.min.js"></script>
+  <script src="<?php echo RUTA_JS?>jquery.flexslider.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
+  </html>

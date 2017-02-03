@@ -81,3 +81,12 @@ if(!isset($datos_individual) && empty($datos_individual)){
         <li><i class="fa fa-circle" style="color:#3399CC;  margin-right:10px;  font-size:18px;"aria-hidden="true"></i>Tratamientos especiales.</li>
       </ul>
     </div>
+  </body>
+  <?php include_once 'estructuras/footer.php';?>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>polyfill.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery-ui.min.js"></script>
+  <script src="<?php echo RUTA_JS?>jquery.flexslider.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
+  </html>

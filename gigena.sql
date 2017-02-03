@@ -1,4 +1,5 @@
-
+CREATE DATABASE gigena;
+USE gigena;
 
 -- phpMyAdmin SQL Dump
 -- version 4.5.2

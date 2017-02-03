@@ -31,3 +31,10 @@ A)R:ValidarUrl.
 
 ////////////////////////////////////////////////
 ANOTACIONES:
+armar estructura de nombres de guardado para el responsive:
+calidad_nombre
+function responsive(contenedor,calidad_nombre){
+
+$(contenedor).attr('src',calidad_nombre);
+
+}
