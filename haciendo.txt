@@ -38,3 +38,26 @@ function responsive(contenedor,calidad_nombre){
 $(contenedor).attr('src',calidad_nombre);
 
 }
+
+///////////////////////USAR GITHUB//////////////////////////////
+
+si nunca iniciaste github-> git init
+si iniciaste alguna vez entonces con -> git status , te fijas si algo se modifico o te va a decir al menos en donde estas
+
+PARA OBTENER REPOSITORIO DESDE 0 -> clone "url_repositorio"
+PARA VER REPOSITORIOS REMOTOS -> git remote -v
+PARA AGREGAR UN REPOSITORIO PARA TRABAJAR-> git remote add "nombre" "url"
+////////////////////////////////////////////////
+PROCESO PARA GUARDAR EN equipo
+1- git status -> comprobar que se modifico (opcional)
+2- git add . ( el punto significa todo lo que se haya modificado)
+3- git commit -m "mensaje_que_dice_que_cambios_se_hicieron"
+4-git push "nombre_repositorio" "rama_a_subir"
+/////////////////////////////////////////////////
+PROCESO PARA OBTENER DATOS EN equipo
+1- git fetch "nombre_repositorio"
+2- git merge "nombre_repositorio"/"rama"
+///////////////////////
+PROCESO PARA OBTENER DATOS INDIVIDUALMENTE
+1-git fetch --all
+2-git reset --hard "nombre_repositorio"/"rama" (generalmente la rama es master,pero puede ser version2 tambien, depende con lo que estes trabajando)
