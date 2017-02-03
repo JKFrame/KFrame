@@ -40,7 +40,6 @@ $(contenedor).attr('src',calidad_nombre);
 }
 
 ///////////////////////USAR GITHUB//////////////////////////////
-
 si nunca iniciaste github-> git init
 si iniciaste alguna vez entonces con -> git status , te fijas si algo se modifico o te va a decir al menos en donde estas
 
@@ -61,3 +60,7 @@ PROCESO PARA OBTENER DATOS EN equipo
 PROCESO PARA OBTENER DATOS INDIVIDUALMENTE
 1-git fetch --all
 2-git reset --hard "nombre_repositorio"/"rama" (generalmente la rama es master,pero puede ser version2 tambien, depende con lo que estes trabajando)
+
+
+//////////////////DATOS GITHUB GENERALES////////////
+nombre repositorio en comun : https://github.com/JKFrame/KFrame.git
